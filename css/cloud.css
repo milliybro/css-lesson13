@@ -1,0 +1,83 @@
+#cloud {
+   padding-top: 129.58px;
+   padding-bottom: 85.81px;
+   background: #000;
+   color: #FFF;
+}
+
+.cloud-container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cloud-left {
+   max-width: 50%;
+}
+
+.cloud-left-fire {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 8px;
+}
+
+.cloud-left-fire h3 {
+   color: #57B8FF;
+   font-size: 16px;
+   line-height: 16px;
+   text-transform: uppercase;
+}
+
+.cloud-left h1 {
+   font-size: 60px;
+   line-height: 86px;
+   text-transform: capitalize;
+   padding-top: 24px;
+   padding-bottom: 45px;
+   max-width: 684px;
+}
+
+.cloud-header1 {
+   position: relative;
+}
+
+.cloud-line {
+   position: absolute;
+   right: 0;
+   top: 190px;
+
+}
+
+.cloud-left p {
+   max-width: 630px;
+   color: #999;
+   font-size: 18px;
+   line-height: 28px;
+}
+
+.cloud-btn {
+   padding-top: 53px;
+}
+
+.cloud-btn button {
+   color: #FFF;
+   font-size: 18px;
+   line-height: 28px;
+   text-transform: capitalize;
+   background: transparent;
+   gap: 40px;
+   font-family: 'Orbitron', sans-serif;
+   padding: 21px 34px;
+   margin-right: 40px;
+   border: none;
+
+}
+
+.cloud-btn button:hover {
+   background: #57B8FF;
+}
+
+.cloud-right video {
+   width: 492px;
+   height: 550px;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root{
+   --primary-color: #57B8FF;
+   --font: 'Orbitron', sans-serif
+}
+.container {
+   max-width: calc(1440px - 100px - 40px);
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: 0 auto;
+}
+
+html {
+   font-family: var(--font);
+}
+
+.light #cloud {
+   background: var(--primary-color);
+}
+
+.light #multip {
+   background: var(--primary-color);
+}
+.light #news {
+   background: var(--primary-color);
+}
+
+.light #cloud h3,
+.light #news h3 {
+   color: red;
+}
+.light #news p{
+   color: red;
+}
+
+.light #cloud button:hover {
+   border: 1px solid black;
+   background: #fff;
+   color: #57B8FF;
+}
+.light #news button:hover{
+   border: 1px solid black;
+   background: #fff;
+   color: #57B8FF;
+}
+.light #home h3{
+   color: red;
+}
+.light #cloud h1,
+.light #news h1,
+.light #news h2{
+   color: black;
+}
+
+.light #cloud button,
+.light #news button{
+   color: black;
+}

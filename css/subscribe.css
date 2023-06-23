@@ -1,0 +1,86 @@
+#subscribe {
+   background: url(../assets/images/subs.png) no-repeat center;
+   background-size: cover;
+   padding-top: 126px;
+   padding-bottom: 130px;
+}
+
+.subs-header {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.subs-header h1 {
+   max-width: 746px;
+   color: #141820;
+   text-align: center;
+   font-size: 72px;
+   line-height: 82px;
+   padding-bottom: 51px;
+}
+
+.subs-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.subs-container p {
+   max-width: 846px;
+   color: #555;
+   text-align: center;
+   font-size: 18px;
+   line-height: 28px;
+}
+
+.subs-line {
+   position: absolute;
+   bottom: 25px;
+   right: 25px;
+}
+
+.subs-now {
+   position: relative;
+   margin-top: 50px;
+}
+
+.subs-now input {
+   padding: 21px 13px;
+   width: 645px;
+}
+
+.subs-now input::placeholder {
+   color: #555;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 28px;
+   font-family: 'Orbitron', sans-serif;
+}
+.subs-now input{
+   color: #555;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 28px;
+   font-family: 'Orbitron', sans-serif;
+}
+
+.subs-btn {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.subs-btn button {
+   color: #FFF;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 28px;
+   background: #57B8FF;
+   padding: 22px 28px;
+   font-family: 'Orbitron', sans-serif;
+   border: none;
+}

@@ -1,0 +1,72 @@
+#multip {
+   background: #000;
+}
+
+.multip {
+   max-width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.first,
+.second,
+.third {
+   max-width: 34%;
+   cursor: pointer;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+.first {
+   padding: 273px 50px 275px 50px;
+   background: url(../assets/images/multi1.png) no-repeat center;
+   background-size: 100% 100%;
+   transition: .3s;
+   text-align: center;
+}
+.first:hover,
+.second:hover,
+.third:hover{
+   background-size: 120% 120%;
+}
+
+.first h3 {
+   color: #FFF;
+   text-align: center;
+   font-size: 48px;
+   line-height: 58px;
+   text-transform: capitalize;
+}
+.second {
+   padding: 257px 90px 259px 90px;
+   background: url(../assets/images/multi2.png) no-repeat center;
+   background-size: 100% 100%;
+   transition: .3s;
+   text-align: center;
+}
+
+.second h3 {
+   color: #FFF;
+   text-align: center;
+   font-size: 48px;
+   line-height: 58px;
+   text-transform: capitalize;
+}
+.second img, .third img{
+   padding-bottom: 30px;
+}
+.third {
+   padding: 257px 48px 259px 48px;
+   background: url(../assets/images/multi3.png) no-repeat center;
+   background-size: 100% 100%;
+   transition: .3s;
+   text-align: center;
+}
+
+.third h3 {
+   color: #FFF;
+   text-align: center;
+   font-size: 48px;
+   line-height: 58px;
+   text-transform: capitalize;
+}

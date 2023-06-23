@@ -1,0 +1,173 @@
+@media only screen and (max-width:450px){
+   .multip h3{
+      font-size: 30px;
+   }
+   .prod-left{
+      max-width: 100px;
+      height: auto;
+   }
+   .news-btn button{
+      padding: 5px 8px;
+   }
+   .home-header1 h1{
+      font-size: 40px;
+   }
+}
+@media only screen and (max-width:530px){
+   .cloud-right video{
+      max-width: 300px;
+      height: 400px;
+   }
+   .subs-now{
+      display: none;
+   }
+   .subs-now input{
+      max-width: 100px;
+   }
+   .subs-now button{
+      padding: 23px 5px;
+      max-width: 50px;
+   }
+}
+@media only screen and (max-width:600px){
+   .prod-left img{
+      max-width: 300px;
+      height: auto;
+   }
+}
+@media only screen and (max-width:680px){
+   .subs-now input{
+      max-width: 500px;
+   }
+   .subs-now button{
+      padding: 23px 5px;
+      max-width: 190px;
+   }
+   .prod-item{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+   }
+   .home-right img{
+      max-width: 100%;
+   }
+}
+@media only screen and (max-width:800px){
+   .subs-header h1{
+      font-size: 40px;
+   }
+   .subs-line{
+      display: none;
+
+   }
+}
+@media only screen and (max-width:850px){
+   .prod-left img{
+      width: 500px;
+      height: 300px;
+   }
+}
+@media only screen and (max-width:1000px){
+   .cloud-container{
+      display: flex;
+      flex-direction: column;
+   }
+   .cloud-left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      text-align: center;
+   }
+   .cloud-right{
+      margin: 0 auto;
+   }
+
+}
+@media only screen and (max-width:1050px){
+   .nav-link{
+      display: none;
+   }
+   .nav-contact .nav-btn{
+      display: none;
+   }
+   .hamburger {
+      display: inline-block;
+      padding-right: 20px;
+      cursor: pointer;
+   }
+}
+@media only screen and (max-width:1200px) {
+   .sponsors {
+      display: flex;
+      flex-direction: column;
+      max-width: 40%;
+      gap: 30px;
+      margin: 0 auto;
+   }
+   .spon-header svg{
+      display: none;
+   }
+   .home-container{
+      display: flex;
+      flex-direction: column-reverse;
+   }
+   .home-left{
+      background: #000;
+      max-width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .home-right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #57B8FF;
+      max-width: 100%;
+   }
+   #navbar{
+      background: linear-gradient(to left, #57B8FF, #000);
+      padding-bottom: 25px;
+      border-bottom: 1px solid #000;
+   }
+   .multip{
+      display: flex;
+      flex-direction: column;
+   }
+   .first, .second, .third{
+      max-width: 100%;
+   }
+
+
+}
+
+@media only screen and (max-width:1285px) {
+   .shop-item {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+   }
+
+   .news-prod {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .prod-item {
+      gap: 50px;
+   }
+   .prod-left{
+      max-width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      padding-bottom: 40px;
+   }
+
+   .home-line svg {
+      display: none;
+   }
+}
