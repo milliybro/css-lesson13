@@ -19,7 +19,8 @@
 html {
    font-family: var(--font);
 }
-
+ .light{
+}
 .light #cloud {
    background: var(--primary-color);
 }
@@ -61,4 +62,28 @@ html {
 .light #cloud button,
 .light #news button{
    color: black;
+}
+.light #header,
+.light #navbar {
+   background: #57B8FF;
+   color: #000;
+}
+.light #navbar .nav-link ul li a{
+   color: #000;
+}
+.light .nav-btn {
+   color: #000;
+   border: 1px solid #000;
+}
+.light .nav-btn:hover{
+   background: #000;
+   color: #57B8FF;
+
+}
+.light .home-btn button{
+   color: #000;
+}
+.light .home-btn button:hover{
+   background-color: #000;
+   color: #57B8FF;
 }

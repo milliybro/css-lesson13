@@ -28,6 +28,13 @@
       padding: 23px 5px;
       max-width: 50px;
    }
+   .news {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+   }
 }
 @media only screen and (max-width:600px){
    .prod-left img{
@@ -53,6 +60,14 @@
    }
 }
 @media only screen and (max-width:800px){
+   .dropdown img{
+      width: 30px;
+      height: auto;
+   }
+   #dark-light img{
+      width: 35px;
+      height: auto;
+   }
    .subs-header h1{
       font-size: 40px;
    }
@@ -82,9 +97,12 @@
    .cloud-right{
       margin: 0 auto;
    }
+   .nav-contact{
+      gap: 15px;
+   }
 
 }
-@media only screen and (max-width:1050px){
+@media only screen and (max-width:1130px){
    .nav-link{
       display: none;
    }
@@ -98,6 +116,9 @@
    }
 }
 @media only screen and (max-width:1200px) {
+   .dropdown p{
+      display: none;
+   }
    .sponsors {
       display: flex;
       flex-direction: column;
@@ -143,7 +164,7 @@
 
 }
 
-@media only screen and (max-width:1285px) {
+@media only screen and (max-width:1320px) {
    .shop-item {
       display: flex;
       flex-direction: column;

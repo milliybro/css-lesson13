@@ -1,10 +1,10 @@
 #header {
-   background-image: linear-gradient(to right, #000 0% 50%, var(--primary-color) 50%);
+   background: #000;
    color: #fff;
 }
 
 #navbar {
-   background-image: linear-gradient(to right, #000 0% 50%, var(--primary-color) 50%);
+   background: #000;
    position: fixed;
    width: 100%;
    padding-top: 20px;
@@ -150,6 +150,9 @@
 .home-btn button:hover {
    background: #57B8FF;
 }
+.home-right{
+   max-width: 50%;
+}
 
 .hamburger {
    display: none;
@@ -200,15 +203,55 @@
    cursor: pointer;
 }
 .navbar-shrink {
+
    margin-top: -15px;
    margin-bottom: -25px;
    box-shadow: 5px 0 10px 3px black;
 }
-#home,
-#about,
-#advice,
-#service,
-#contact,
-#footer {
-   padding-top: 120px;
+#home {
+   padding-top: 250px;
+}
+.nav-btn:hover{
+   background: #57B8FF;
+   color: #000;
+}
+
+.dropdown {
+   position: relative;
+}
+
+.dropdown-content {
+   position: absolute;
+   list-style-type: none;
+   background-color: #696969;
+   z-index: -1;
+   opacity: 0;
+   transition: 1s;
+   border: 1px solid #696969;
+   
+}
+.dropdown-content li{
+   text-decoration: none;
+}
+.dropdown a {
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   color:white;
+   text-decoration: none;
+   background-color: transparent;
+
+   
+}
+.dropdown:hover .dropdown-content{
+   opacity: 1;
+   z-index: 1;
+   top: 43px;
+   
+}
+.dropdown:hover .dropdown-content:hover{
+   text-decoration: underline;
+}.dropdown img{
+   width: 50px;
+   height: auto;
 }

@@ -36,3 +36,11 @@ function shrink() {
       navbar.classList.remove("navbar-shrink");
    }
 }
+
+const loading = document.getElementById("loader");
+
+const loadingDuration = 3000; // 3s
+
+setTimeout(() => {
+  loading.classList.add("loading-none");
+}, loadingDuration);

@@ -6,7 +6,8 @@
 @import "multi.css";
 @import "news.css";
 @import "subscribe.css";
-@import "responsive.css"; */
+@import "responsive.css";
+@import "loading.css"; */
 
 
 @import "header.min.css";
@@ -18,3 +19,4 @@
 @import "news.min.css";
 @import "subscribe.min.css";
 @import "responsive.min.css";
+@import "loading.min.css";
